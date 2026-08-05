@@ -1,0 +1,46 @@
+.categories{
+padding:100px 8%;
+background:#081511;
+}
+
+.categories h2{
+text-align:center;
+font-size:42px;
+margin-bottom:60px;
+font-weight:700;
+color:#fff;
+}
+
+.categoryGrid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+gap:30px;
+}
+
+.categoryCard{
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(18px);
+border:1px solid rgba(255,255,255,.08);
+border-radius:25px;
+padding:35px 20px;
+text-align:center;
+cursor:pointer;
+transition:.35s;
+}
+
+.categoryCard:hover{
+transform:translateY(-12px);
+background:#18b67c;
+box-shadow:0 18px 45px rgba(24,182,124,.35);
+}
+
+.categoryCard h1{
+font-size:60px;
+margin-bottom:15px;
+}
+
+.categoryCard p{
+font-size:18px;
+font-weight:600;
+color:#fff;
+}

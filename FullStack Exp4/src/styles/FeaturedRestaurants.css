@@ -1,0 +1,37 @@
+.featured{
+padding:100px 8%;
+background:#07120f;
+}
+
+.title{
+text-align:center;
+margin-bottom:60px;
+}
+
+.title span{
+color:#18b67c;
+font-size:18px;
+font-weight:600;
+letter-spacing:2px;
+}
+
+.title h2{
+font-size:46px;
+margin:18px 0;
+font-weight:700;
+}
+
+.title p{
+max-width:700px;
+margin:auto;
+color:#cfcfcf;
+line-height:30px;
+font-size:17px;
+}
+
+.foodGrid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:35px;
+margin-top:60px;
+}
