@@ -1,0 +1,21 @@
+.leave-card {
+  width: 220px;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.leave-card:hover {
+  transform: translateY(-5px);
+}
+
+.leave-card h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.leave-card h2 {
+  color: #1e293b;
+}
